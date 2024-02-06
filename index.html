@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/util.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>What's in the picture?</title>
+  </head>
+
+  <body onload="initGame()">
+    <header>
+      <img class="trivia-img" src="img/trivia.jpg" />
+      <button onclick="restartGame()" class="restart-btn">Restart Game</button>
+    </header>
+    <div class="img-section">
+      <div class="img-box">
+        <img class="question-img" src="img/1.jpg" />
+      </div>
+      <div class="modal">
+        <p class="">WRONG ANSWER!</p>
+      </div>
+    </div>
+    <div class="answers">
+      <!-- <button class="answer"><span>Batman & Superman</span></button>
+      <button class="answer"><span>Wonder Woman & Aquaman</span></button>
+      <button class="answer"><span>Supergirl & Yossi</span></button> -->
+    </div>
+  </body>
+</html>
